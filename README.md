@@ -50,4 +50,8 @@ Bitácora de comandos para la clase de sistemas operativos
 |`neofetch`| Muestra información sobre el sistema. | `neofetch` imprime información sobre el sistema, cómo el la versión del kernel. |
 |`group <nombre de usuario>`| Muestra el grupo del usuario. | `group francel_m` muestra el grupo al que pertenece el usuario francel_m. |
 |`exit`| Cierra la terminal. | `exit` en la mayoría de las distribuciones se cierra la terminal. |
-
+|`locate <nombre de archivo>`| Encontrar archivos. | `locate archivo12` se visualizan los archivos que contienen el texto archivo12. |
+|`free`| Muestra consumo de memoria. | `free` se visualizan el consumo de memoria del sistema. |
+|`ip`| Si visualiza la dirección del ip. | `ip` permite ver la dirección ip y con ello configurarla. |
+|`sudo pacman -Sy`| Actualizar paquetes de Manjaro. | `sudo pacman -Sy` se inicia la actualización de los paquetes del sistema Manjaro. |
+|`grep -rs <palabra> $HOME`| Buscar palabra en directorio. | `grep -rs “papirus” $HOME` se visualizan los archivos en los que existe la palabra papirus. |
