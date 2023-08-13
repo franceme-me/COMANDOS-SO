@@ -30,6 +30,7 @@ Bitácora de comandos para la clase de sistemas operativos
 |`uname -a`| Muestra información del sistema operativo. | `uname -a` logra visualizar información del sistema operativo como la versión del mismo y kernel. |
 |`sudo useradd -m <usuario> -G wheel -p <contraseña>`| Crea un nuevo usuario en Manjaro. | `sudo useradd -m <usuario> -G wheel -p <contraseña>` crea un nuevo usuario en el sistema y se le asigna una contraseña al mismo. |
 |`sudo docker images`| Visualiza las imagenes de Docker. | `sudo docker images` muestra las imagenes de Docker con las que cuenta el sistema, para así seleccionar la que necesitamos para el contenedor. |
+|`docker run -it ubuntu`| Inicializa ubuntu en Docker. | `docker run -it ubuntu` inicializa ubuntu como el sistema a utilizar en Docker. |
 |`rmdir <nombre de directorio>`| Eliminar directorios. | `rmdir directorio1` se elimina un directorio guardado con el nombre de directorio1. |
 |`sudo`| Se da permisos de administrador. | `sudo` se permite realizar acciones específicas de administrador, de las que no pueden realizar cualquier usuario. |
 |`zip <nombre de archivo>`| Comprimir archivos. | `zip archivo.pdf` se inicia el proceso de comprimir el archivo.pdf. |
@@ -44,8 +45,7 @@ Bitácora de comandos para la clase de sistemas operativos
 |`userdel <nombre de usuario>`| Elimina usuario del sistema. | `userdel francel_m` se elimina del sistema el usuario llamado francel_m. |
 |`cd ..`| Volver a directorio principal. | `cd ..` se abre al directorio principal. |
 |`cd -`| Volver al directorio anterior. | `cd -` devuelve al usuario al directorio en el que estaba trabajando anteriormente. |
+|`uname -a`| Muestra información del sistema operativo. | `uname -a` logra visualizar información del sistema operativo como la versión del mismo y kernel. |
 |`neofetch`| Muestra información sobre el sistema. | `neofetch` imprime información sobre el sistema, cómo el la versión del kernel. |
 |`group <nombre de usuario>`| Muestra el grupo del usuario. | `group francel_m` muestra el grupo al que pertenece el usuario francel_m. |
-
-
 
