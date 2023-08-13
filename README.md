@@ -4,6 +4,7 @@ Bitácora de comandos para la clase de sistemas operativos
 |--|--|--|
 | `clear` | Limpia la pantalla de la sesión de consola actual. | `clear` muestra toda la información (gracias al flag `-a`) sobre 
 | `cd <ruta de directorio>` | Cambia el directorio actual | `cd ~/Ulacit` para ir a una carpeta llamada Ulacit en el home (~) del usuario actual. |
+|`ifconfig`| Visualiza direcciones ip. | `ifconfig` muestra dirección ip del sistema, esto para asignar direcciones IP a interfaces. |
 | `ls <directorio>` | Lista los archivos y directorios que están dentro de un directorio. Si no se pasa ningún directorio cómo parámetro se listan los del directorio actual. | `ls ~/Ulacit` para mostrar todas las carpetas y archivos dentro de la carpeta Ulacit. |
 | `cp <origen> <destino>` | Copia un archivo (o directorio si se usa el flag `-r`) de un origen a un destino. | `cp -r ~/Ulacit/* ~/` para copiar todo el contenido de la carpeta llamada Ulacit al home del usuario actual. |
 |`echo`| Imprime en pantalla una cadena de texto. | `echo "Hola"` imprimiría Hola en la salida de la terminal. |
@@ -48,4 +49,5 @@ Bitácora de comandos para la clase de sistemas operativos
 |`uname -a`| Muestra información del sistema operativo. | `uname -a` logra visualizar información del sistema operativo como la versión del mismo y kernel. |
 |`neofetch`| Muestra información sobre el sistema. | `neofetch` imprime información sobre el sistema, cómo el la versión del kernel. |
 |`group <nombre de usuario>`| Muestra el grupo del usuario. | `group francel_m` muestra el grupo al que pertenece el usuario francel_m. |
+|`exit`| Cierra la terminal. | `exit` en la mayoría de las distribuciones se cierra la terminal. |
 
